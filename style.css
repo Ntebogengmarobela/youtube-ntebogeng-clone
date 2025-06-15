@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" );
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     font-family: "Roboto", sans-serif;
+}
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    width: 100vw;
+    /* width: 1014px; */
+    background-color:rgb(15, 15, 15);
+    padding: 0 16px;
+    justify-content: space-between;
+    /* background-color: rgb(0, 0, 0, 0); */
+}
+.start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    width:169px;
+}
+.guide{
+    display: block;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+}
+.guide:hover {
+    border-radius: 9999px;
+    background-color:rgb(39, 39, 39) ;
+}
+
+.guide svg{
+    fill: rgb(255, 255, 255);
+}
+.logo {
+    align-items: center;
+    display: inline-flex;
+    height: 56px;
+    width: 123px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 16px;
+    padding-right: 14px;
+}
+.logo img {
+    height: 20px;
+    width: 93px;
+    
+}
+.id-country {
+    display: block;
+    height: 44px;
+    width: 12.5813px;
+    font-size: 10px;
+    color: rgb(170, 170, 170);
+    margin-top: 12px;
+    margin-left: -10px;
+}
+.search-bar {
+    display: flex;
+    flex-basis: 0%;
+    height: 40px;
+    
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    padding: 0 4px;
+    align-self: center;
+}
+.search {
+    align-items: center;
+    display: flex;
+    height: 38.4px;
+    width: 600px;
+    /* width:450px; */
+    border-radius: 9999px;
+    border: 1px solid rgb(48, 48, 48);
+    padding-left: 16px;
+    /* padding-right: 4px; */
+    margin-left: 32px;
+    background-color:rgb(18, 18, 18) ;
+}
+
+.search input {
+    display: block;
+    height: 24px;
+    line-height: 22.5px;
+    width: 538px;
+    /* width: 371.2px; */
+    padding: 1px 0px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    outline: none;
+
+}
+
+ button {
+    display: flex;
+    background-color:rgb(35, 35, 35);
+    height:38.4px;
+    width:64px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-left: 1px solid rgb(48, 48, 48);
+}
+
+.search-icon {
+    display: block;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    justify-content: center;
+    
+}
+.search-icon svg {
+    fill: rgb(255, 255, 255);
+}
+.voice {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    fill: rgb(255, 255, 255);
+    margin-left: 12px;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color:rgb(35, 35, 35);
+}
+.voice:hover {
+    background-color: rgb(62, 62, 62);
+}
+.create {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-basis:1e-09px;
+    height:36px ;
+    width: 97.1687px;
+    padding: 0 16px;
+    border-radius: 9999px;
+    background-color:rgb(35, 35, 35);
+    /* margin-left: 12px; */
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+
+}
+.create:hover {
+    background-color: rgb(62, 62, 62);
+}
+.create svg {
+    fill: rgb(255, 255, 255);
+    margin-left: -6px;
+    margin-right:6px;
+}
+.notifications {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    fill: rgb(255, 255, 255);
+    margin-left: 12px;
+    margin-right: 8px;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color:rgb(35, 35, 35);
+}
+.notifications:hover {
+    background-color: rgb(62, 62, 62); 
+}
+.profile {
+    align-items: center;
+    display: flex;
+    height: 34px;
+    width: 60px;
+    justify-content: center;
+    padding-block-start: 1px;
+    padding-block-end:1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-inline-start: 6px;
+    padding-inline-end: 6px;
+}
+.profile img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin: 0 8px;
+
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    flex-basis:732px;
+    height: 40px;
+    
+    /* width: 588px; */
+
+
+}
+.end {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    height: 40px;
+    width: 255px;
+    justify-content: flex-end;
+}
